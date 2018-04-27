@@ -1,0 +1,12 @@
+.about{
+  width: 350px;
+  text-align:center;
+}
+
+h2{
+  text-align: center;
+}
+
+#about,#feat{
+  font-size: 5em;
+}
