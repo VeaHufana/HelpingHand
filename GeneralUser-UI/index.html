@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/buefy/lib/buefy.css">
+  <link rel="stylesheet" href="https://unpkg.com/buefy/dist/buefy.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+  <title>ECOllect</title>
+</head>
+
+<body>
+  <div id="app"></div>
+    <button id="show-modal" @click="showModal = true">Show Modal</button>
+    <!-- use the modal component, pass in the prop -->
+    <modal v-if="showModal" @close="showModal = false"></modal>
+</body>
+
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/buefy/dist/buefy.min.js"></script>
+<script src="https://unpkg.com/buefy/dist/components/table"></script>
+<script src="https://unpkg.com/buefy/dist/components/input"></script>
+
+</html>
